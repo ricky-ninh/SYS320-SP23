@@ -83,7 +83,7 @@ routes="$(head -1 wg0.conf | awk ' { print $8 } '))"
 
 
 echo "[Interface]
-Address = 10.254.132.1/24
+Address = 10.254.132.100/24
 DNS = ${dns}
 ListenPort = ${lport}
 MTU = ${mtu}
@@ -105,7 +105,7 @@ echo "
 [Peer]
 PublicKey = ${clientPub}
 PresharedKey = ${pre}
-AllowedIPs = 10.254.132.1/32
+AllowedIPs = 10.254.132.100/32
 # ${the_client} end" | tee -a wg0.conf
 
 
