@@ -16,7 +16,7 @@ Address="10.254.132.0/24,172.16.20.0/24"
 ServerAddress="10.254.132.1/24,172.16.20.1/24"
 
 # Set the listen port
-lport="51820"
+lport="4282"
 
 # Create the format for the client configuration options
 peerInfo="# ${address} 192.199.97.163:4282 ${pub} 8.8.8.8,1.1.1.1 1280 120 0.0.0.0/0" 
