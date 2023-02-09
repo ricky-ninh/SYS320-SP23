@@ -21,6 +21,16 @@ lport="4282"
 # Create the format for the client configuration options
 peerInfo="# ${address} 192.199.97.163:4282 ${pub} 8.8.8.8,1.1.1.1 1280 120 0.0.0.0/0" 
 
+# Example Server configuration
+# 10.254.132.0/24,172.16.28.0/24,162.243.2.92:4282 /y6z1o8iyo+Jp2KFNByKbe7ysaR6nmYnwKGiU5Zq5BA= 8.8.8.8,1.1.1.1 1280 120 0.0.0.0/0
+#[Interface]
+#Address = 10.254.132.1
+#PostUp = /etc/wireguard/wg-up.bash
+#PostDown = /etc/wireguard/wg-down.bash
+#ListenPort = 4282
+#PrivateKey = sD6H1S6BqUnOzhJVM07XScmte367eZ7eW4dWGkfnhGU=
+#" > wg0.conf
+
 echo "${peerInfo}
 [Interface]
 Address = ${ServerAddress}
