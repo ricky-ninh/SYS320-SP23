@@ -105,7 +105,7 @@ echo "
 [Peer]
 PublicKey = ${clientPub}
 PresharedKey = ${pre}
-AllowedIPs = 10.254.132.10/32
+AllowedIPs = 10.254.132.100/32
 # ${the_client} end" | tee -a wg0.conf
 
 
