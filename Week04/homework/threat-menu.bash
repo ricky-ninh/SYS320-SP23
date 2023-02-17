@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Deliverable 2
-# Storyline: Menu for getting all of the parsing threat tools toghether.
+# Storyline: Menu for getting all of the parsing threat tools together.
 
 
 while getopts 'MLUWCH:' OPTION ; do
