@@ -227,8 +227,8 @@ function blocklist_menu() {
                 ;;
 
                 *)
-                        #invalid_opt
-                        # Call the menu
+                        invalid_opt
+                        
 
 
                 ;;
