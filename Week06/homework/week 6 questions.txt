@@ -1,0 +1,13 @@
+1. What has been your experience learning bash?
+It has been great. It's a little bit easier to comprehend and grasp it than Python. I have been watching some YouTube videos on bash scripting to help me learn as well.
+
+2. What would have made the experience with learning it better, if there were problems with it, my instructions, or the assignments?
+It would have been helpful to include some more examples, practical uses, and some more tutorials from YouTube as that would have helped me learn more about Bash.
+
+3. Approximately how much time did you spend working on assignments?
+I spent about 7-8 hours working on the assignments every week.
+
+4. Are you able to see how the programs used in this class or learning bash would be helpful for your career?
+I am able to see how useful the programs are and how learning bash can be helpful for my career.
+If you needed to make a script to find certain IP addresses and format it in a readable way instead of trying to manually make rules, it can save you lots of time and frustration.
+You never know when you will need to make a script to find something like IP addresses for reports or make firewall rules for linux and windows operating systems instead of making firewall rules by hand.
