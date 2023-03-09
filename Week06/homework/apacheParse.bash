@@ -33,5 +33,5 @@ grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' apachelogfile.txt | so
 for badIP in $(cat blockedIPs.txt)
 do
         echo "netsh advfirewall firewall add rule name=\"BLOCK IP Address - ${badIP}\" dir=in action=block remoteip=${badIP}" | tee -a blockedIPs.ps1
-		echo "iptables -A INPUT -s ${badIP} -j DROP" | tee -a blockedIPstable.txt
+	echo "iptables -A INPUT -s ${badIP} -j DROP" | tee -a blockedIPstable.txt
 done
